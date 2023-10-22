@@ -13,4 +13,4 @@ if __name__ == "__main__":
         for line in file:
             num = int(line.strip())
             q, p = find_factors(num)
-            print(f"{num} = {q} * {p}")
+            print(f"{num}={q}*{p}")
