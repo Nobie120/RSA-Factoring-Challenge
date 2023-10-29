@@ -4,7 +4,9 @@
 #include <string.h>
 
 /**
- * factors - factorizes a number
+ * main - factorizes a number
+ * @argc:arguement count
+ * @argv:arguement vector
  *
  * Return: 0 on success
  */
@@ -24,7 +26,7 @@ int main(int argc, char *argv[])
 	{
 		div = 2;
 		number = atoll(line);
-	
+
 		flag = 0;
 		while (flag == 0)
 		{
