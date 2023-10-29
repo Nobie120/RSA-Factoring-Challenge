@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 		flag = 0;
 		while (flag == 0)
 		{
-			if (number % div == 0 && is_prime(div))
+			if (number % div == 0 && (is_prime(div) && is_prime(number / div)))
 			{
 				printf("%lld=%lld*%lld\n", number, number / div, div);
 				flag = 1;
