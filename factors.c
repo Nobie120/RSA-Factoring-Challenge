@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
@@ -32,7 +33,7 @@ int main(int argc, char *argv[])
 		{
 			if (number % div == 0)
 			{
-				printf("%lld=%lld*%lld\n", number, div, number / div);
+				printf("%lld=%lld*%lld\n", number, number / div, div);
 				flag = 1;
 			}
 			else
